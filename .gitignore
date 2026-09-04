@@ -1,0 +1,22 @@
+<<'EOF'
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+crash.*.log
+.terraform.tfstate.lock.info
+
+# Terraform variables
+*.tfvars
+*.tfvars.json
+
+# Terraform CLI config
+.terraformrc
+terraform.rc
+
+# Secrets
+.env
+.env.*
+.aws/
+EOF
